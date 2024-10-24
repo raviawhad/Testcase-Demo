@@ -13,6 +13,8 @@ package com.jbk.jbkproject;
         @Test
         public void testSingleNumber() {
             assertEquals(5, StringCalculator.add(2,3));
+
+
         }
 
 
