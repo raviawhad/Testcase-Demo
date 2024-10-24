@@ -16,6 +16,10 @@ package com.jbk.jbkproject;
 
 
         }
+        @Test
+        public void testSubstractionNumbers() {
+            assertEquals(-1, StringCalculator.subtract(2,3));
+        }
 
 
     }
