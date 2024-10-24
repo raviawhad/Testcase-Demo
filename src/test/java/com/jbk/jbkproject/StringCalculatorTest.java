@@ -22,7 +22,7 @@ package com.jbk.jbkproject;
         }
         @Test
         public void testMultipleNumbers() {
-            assertEquals(6, StringCalculator.subtract(2,3));
+            assertEquals(6, StringCalculator.multiply(2,3));
         }
 
     }
