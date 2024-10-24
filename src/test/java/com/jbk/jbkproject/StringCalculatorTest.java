@@ -20,7 +20,10 @@ package com.jbk.jbkproject;
         public void testSubstractionNumbers() {
             assertEquals(-1, StringCalculator.subtract(2,3));
         }
-
+        @Test
+        public void testMultipleNumbers() {
+            assertEquals(6, StringCalculator.subtract(2,3));
+        }
 
     }
 
